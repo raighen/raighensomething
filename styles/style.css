@@ -352,3 +352,40 @@ body {
 }
 
 .text span {font-size:25px; }
+
+.galery-photo {
+  display: flex;
+
+  background-color: rgba(255, 192, 203, 0.733);
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 8px;
+}
+.galery-photo:hover {
+  transition: 0.5s;
+  background-color: rgb(228, 131, 151);
+}
+
+.galery-img {
+  display: flex;
+  width: 38vh;
+  height: 51vh;
+  padding-bottom: 8px;
+  border-radius: 2%;
+}
+
+.iloveyou {
+  display: flex;
+  background-color: rgba(255, 192, 203, 0.733);
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.iloveyou-text {
+  font-size: 28px;
+  font-weight: bold;
+}
